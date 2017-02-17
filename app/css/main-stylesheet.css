@@ -1,2 +1,53 @@
-.test {
-  position: absolute; }
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url("/images/liliana.jpg");
+  background-size: cover;
+  background-attachment: fixed; }
+
+#main-nav {
+  position: fixed;
+  width: 200px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px; }
+  #main-nav a {
+    display: block;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    padding: 15px;
+    margin: 10px auto;
+    transition: 300ms; }
+    #main-nav a:hover {
+      cursor: pointer;
+      transition: 300ms;
+      background-color: rgba(255, 255, 255, 0.8);
+      color: black; }
+  #main-nav h2 {
+    position: absolute;
+    bottom: 0;
+    color: white; }
+
+#search-and-filter {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  right: 0;
+  height: 100px;
+  left: 220px; }
+
+#main-area {
+  margin-left: 240px;
+  margin-top: 200px; }
+
+#all-cards-wrapper {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 40px; }
+  #all-cards-wrapper .cards {
+    padding: 20px; }
+    #all-cards-wrapper .cards:nth-child(odd) {
+      background: rgba(128, 0, 128, 0.8);
+      color: white; }
