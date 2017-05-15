@@ -51,3 +51,8 @@ body {
     #all-cards-wrapper .cards:nth-child(odd) {
       background: rgba(128, 0, 128, 0.8);
       color: white; }
+
+#ui-id-1 {
+  list-style: none;
+  background-color: white;
+  width: 200px; }
